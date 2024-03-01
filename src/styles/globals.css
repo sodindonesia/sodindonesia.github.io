@@ -1387,6 +1387,27 @@ Note: Beware of modifying this element as it can break the animations - you shou
   text-shadow: 0 0 2px #6a80bc, 0 0 2px #6a80bc;
 }
 
+.scrollWof {
+  white-space: nowrap;
+  margin: 0 20px;
+}
+
+.scrollWof div {
+  display: flex;
+  gap: 0.8em;
+  justify-content: center;
+}
+
+.scrollWof p {
+  font-size: 2em;
+  color: white;
+  font-weight: bold;
+  margin-top: 0.8vh;
+  margin-bottom: 0.8vh;
+  line-height: 9px;
+  text-shadow: 0 0 2px #6a80bc, 0 0 2px #6a80bc;
+}
+
 .RightToLeft p {
   font-family: "Figtree";
 }
@@ -1415,7 +1436,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 .scroll-caption {
   padding-top: 1rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1rem;
   width: 100vw;
   text-align: center;
 }
