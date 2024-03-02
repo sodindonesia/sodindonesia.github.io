@@ -1408,6 +1408,27 @@ Note: Beware of modifying this element as it can break the animations - you shou
   text-shadow: 0 0 2px #6a80bc, 0 0 2px #6a80bc;
 }
 
+.scrollBv {
+  white-space: nowrap;
+  margin: 0 20px;
+}
+
+.scrollBv div {
+  display: flex;
+  gap: 0.8em;
+  justify-content: center;
+}
+
+.scrollBv p {
+  font-size: 2.5em;
+  color: white;
+  font-weight: bold;
+  margin-top: 0.8vh;
+  margin-bottom: 0.8vh;
+  line-height: 9px;
+  text-shadow: 0 0 2px #6a80bc, 0 0 2px #6a80bc;
+}
+
 .RightToLeft p {
   font-family: "Figtree";
 }
@@ -1435,7 +1456,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 .scroll-caption {
-  padding-top: 1rem;
+  padding-top: 0.5rem;
   padding-bottom: 1rem;
   width: 100vw;
   text-align: center;
@@ -1443,7 +1464,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 .scroll-caption h1 {
   font-family: 'Titan One';
-  font-size: 3rem;
+  font-size: 4rem;
   color: white;
   text-shadow: 0 0 5px #6a80bc, 0 0 5px #6a80bc;
 }

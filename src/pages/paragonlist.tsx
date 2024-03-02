@@ -48,7 +48,7 @@ const ParagonList: React.FunctionComponent<IParagonListProps> = (props) => {
         <div className='scroll-caption'>
           <h1>WHAT IS THE BEST VERSION OF YOU?</h1>
         </div>
-        <div className="scroll">
+        <div className="scrollBv">
           <div className='RightToLeft'>
             <p id='line1'></p>
           </div>
